@@ -66,6 +66,7 @@ function App() {
 
             <button type="submit" className="btn btn-primary">ADICIONAR</button>
         </form>
+      <h2>CORES FAVORITAS</h2>
     <small 
       className={classNames({
           [styles.error]: error
