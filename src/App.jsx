@@ -51,19 +51,21 @@ function App() {
     <div className="App">
      <h1>ADICIONAR NOVA COR</h1>
      <form className="formCadastro"  onSubmit={event => addColor(event)}>
-
+      <label>Nome</label>
+      <label>Cor</label>
+      <br />
             <input type="text" 
       className="form-control" 
       value={colorName} 
       onChange={event => setColorName(event.target.value)} 
       placeholder="Digite aqui o nome da cor"/>
-
+            
             <input type="color" 
       className="form-control" 
       value={hexColor} 
       onChange={event => setHexColor(event.target.value)} 
       placeholder="Escolha a sua cor em formato hexadecimal"/>
-
+      <br />
             <button type="submit" className="btn btn-primary">ADICIONAR</button>
         </form>
       <h2>CORES FAVORITAS</h2>

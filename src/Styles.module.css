@@ -7,3 +7,56 @@
 small {
     display: none;
 }
+*{
+    background-color: black;
+    padding-left: 10px;
+}
+h1, h2, h3{
+    color: white;
+
+}
+
+form{
+    background-color: #202020;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5%;
+    margin-right: 250px;
+}
+
+input{
+    background-color: #353535;
+    color: white;
+    border-style: unset;
+    border-radius: 5px;
+    padding: 1%;
+        
+}
+
+label{
+    color:white;
+    background-color: #202020;
+    margin: 43px
+    
+}
+
+button{
+    background-color: #36CE7C;
+    border-style: unset;
+    border-radius: 5px;
+    padding: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+span{ 
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
